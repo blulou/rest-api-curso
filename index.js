@@ -14,5 +14,9 @@ mongoose.connect(config.db, { useMongoClient: true }, (err, res) => {
 
   app.listen(config.port, () => {
     console.log(`API REST corriendo en http://localhost:${config.port}`)
+    console.log('Nueva funcionalidad')
+    console.log('Nueva funcionalidad')
+    console.log('Nueva funcionalidad')
+    console.log('Nueva funcionalidad')
   })
 })
